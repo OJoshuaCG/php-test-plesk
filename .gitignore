@@ -1,0 +1,10 @@
+# Directories
+.vscode/
+vendor/
+tmp/
+
+# Files
+*.env
+*.log
+*.tmp
+composer.lock
