@@ -11,6 +11,11 @@ require_once(__DIR__ . '/variables.php');
         Tu edad es <?= $_ENV['EDAD'] ?>
     </p>
 </div>
+
+<form action="getExcel.php" method="GET">
+    <input type="submit" value="Descargar Excel">
+</form>
+
 <?php
 require_once(__DIR__ . '/layout/footer.html')
 ?>
